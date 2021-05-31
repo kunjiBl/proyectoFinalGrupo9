@@ -188,7 +188,7 @@ padding: 60px 0;
 
 header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Imagenes/Bajo-Agua-67089.gif);
+    background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Img/Bajo-Agua-67089.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -197,7 +197,7 @@ header{
 
 .imgAcerca{
   height: 40vh;
-  background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Imagenes/Bajo-Agua-67089.gif);
+  background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(/Img/Bajo-Agua-67089.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
