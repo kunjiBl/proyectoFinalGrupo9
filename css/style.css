@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+
+}
+
+
+
+#bar {
+  display: grid;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+  
+}
+
+
+.nav ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+
+}
+li{
+    list-style: none;
+}
+
+.nav li a {
+    background-color:#483157;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    
+}
+
+.nav li a:hover {
+    background-color:#434343;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+.top p{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    margin-left: 500px;
+    
+}  
+
+.bodyPago{
+    
+    color:#fff;
+    background-repeat: no-repeat ;
+    height: 100vh;    
+    font-family: var(--font);
+    display: flex;
+    align-items: center;
+  }
+  
+  .card{
+    background-color: #333;
+    display: flex;
+    height: 80vh;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card__left{
+    background-color: #222;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card__title{
+    margin-left: 1rem ;
+  }
+  
+  .form{
+    margin-left: 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+  }
+  
+  .form__names{
+    display: flex;
+  }
+  
+  .form__field{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form__input{
+    background-color: #333;
+    border-style: none;
+    border-bottom: solid white 1px;  
+    outline: none;
+    color: #fff;
+  }
+  
+
+
+  .form__input--message{
+    height: 6em;
+    resize: none;
+  }
+  
+  
+  .form__button{
+    width: 90px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    font-family: var(--font);
+    outline: none;
+    border: none;
+  }
+  
+  .form__button:active{
+    transform: scale(.9);
+  }
+  
+  .nems{
+    margin-top: 2em;
+    background-color: #222;
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50px);
+    transition: transform,background-color  2s;  
+  }
+  
+  .logo{
+    position: relative;
+    top: 0px; 
+    left: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 1%;
+    border:2px solid #fff; 
+    display: block;
+
+  }
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+width: 90%;
+max-width: 1200%;
+overflow: hidden;
+margin: auto;
+padding: 60px 0;
+
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Imagenes/Bajo-Agua-67089.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.imgAcerca{
+  height: 40vh;
+  background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Imagenes/Bajo-Agua-67089.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.imgMunicipalidad{
+  margin-top: 10px;
+
+}
+
+.textos-header{
+    display: flex;
+    padding: 20%;
+    height: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* about us */
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.imagen-about-us{
+    width: 50%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}

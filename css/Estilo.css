@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+width: 90%;
+max-width: 1200%;
+overflow: hidden;
+margin: auto;
+padding: 60px 0;
+
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(250, 208, 196, 0.733) 0%, rgb(255, 209, 255) 100%), url(../Imagenes/Bajo-Agua-67089.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header .textos-header{
+    display: flex;
+    padding: 20%;
+    height: 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* about us */
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.imagen-about-us{
+    width: 50%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.titulo {
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
